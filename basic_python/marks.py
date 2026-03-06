@@ -1,0 +1,21 @@
+markStudent = []
+
+Student1 = int(input("Ali get mark: "))
+markStudent.append(Student1)
+Student2 = int(input("Khuram get mark: "))
+markStudent.append(Student2)
+Student3 = int(input("Zafar get mark: "))
+markStudent.append(Student3)
+Student4 = int(input("Farooq get mark: "))
+markStudent.append(Student4)
+Student5 = int(input("AStudentad get mark: "))
+markStudent.append(Student5)
+Student6 = int(input("Studentharjeel get mark: "))
+markStudent.append(Student6)
+Student7 = int(input("Fahad get mark: "))
+markStudent.append(Student7)
+Student8 = int(input("Riyan get mark: "))
+markStudent.append(Student8)
+
+markStudent.sort()
+print(markStudent)
